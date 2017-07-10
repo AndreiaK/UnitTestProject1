@@ -9,6 +9,13 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.IsTrue(true);
         }
+
+		[TestMethod]
+		public void FailingTest()
+		{
+			Assert.IsTrue(false);
+		}
     }
 }
